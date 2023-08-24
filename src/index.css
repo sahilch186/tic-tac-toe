@@ -1,0 +1,10 @@
+*{box-sizing: border-box; margin: 0; padding: 0}
+body{background-color: lightskyblue; color: navy; display: flex; align-items: center; justify-content: center; min-height: 100vh;font-family: cursive;}
+.App{background-color:#fff; padding: 20px; border-radius: 4px;}
+.board-row{display:flex; justify-content: space-evenly; }
+.button{cursor: pointer; background-color: navy; color: #fff; padding: 10px; border-radius:5px; border: none; width: 100%;}
+.square{border: 1px solid black;height: 100px;width: 100px;display: flex;justify-content: center;align-items: center;}
+h1{text-align: center; margin-bottom: 20px; font-size: 40px;}
+@media screen and (max-width: 768px){
+  .square{height: 80px;width: 80px;}
+}
